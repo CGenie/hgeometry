@@ -93,7 +93,7 @@ multiply3 (Matrix3 (Vec3 ( Vec3 (a,b,c)
                          , Vec3 (g,h,i)))) (Vec3 (x,y,z)) =
     Vec3 ( a*x + b*y + c*z,
            d*x + e*y + f*z,
-           g*z + h*y + i*z)
+           g*x + h*y + i*z)
 
 
 
